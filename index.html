@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraBeauty | Where Beauty Meets Confidence</title>
+    <meta name="description" content="AuraBeauty is a modern beauty and skincare e-commerce website featuring skincare, makeup, haircare, body care, and fragrances.">
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="IMAGE/logo.png" alt="AuraBeauty logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+
+       <div class="user-menu">
+    <i class="fa-regular fa-user"></i>
+    <span id="user-name">Login</span>
+    <button id="logout-btn">Logout</button>
+</div>
+
+    <a href="wishlist.html">
+        <i class="fa-regular fa-heart"></i>
+    </a>
+
+    <a href="cart.html" class="cart-icon">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span id="cart-count">0</span>
+    </a>
+
+    <button id="dark-btn" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+</div>
+
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+      <span class="sparkle sparkle1">✦</span>
+      <span class="sparkle sparkle2">✦</span>
+      <span class="sparkle sparkle3">✦</span>
+      <span class="sparkle sparkle4">✦</span>
+      <span class="sparkle sparkle5">✦</span>
+        <p class="tagline">
+        Premium Beauty & Skincare Collection
+       </p>
+
+        <h1>Where Beauty Meets Confidence</h1>
+
+        <p>
+            Discover premium beauty and skincare products
+            crafted to enhance your natural glow.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="shop.html" class="btn">
+                Shop Now
+            </a>
+
+            <a href="shop.html" class="btn-outline">
+                Explore Products
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SHOP BY CATEGORY ================= -->
+
+<section class="categories" id="categories">
+
+    <div class="section-title">
+        <h2>Shop By Category</h2>
+        <p>Find everything you need for your beauty routine.</p>
+    </div>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <div class="category-icon">
+                💧
+            </div>
+
+            <h3>Skincare</h3>
+
+            <p>
+                Cleansers, Serums, Moisturizers &
+                Sunscreens
+            </p>
+
+            <a href="shop.html">Explore →</a>
+
+        </div>
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                💄
+            </div>
+
+            <h3>Makeup</h3>
+
+            <p>
+                Lipsticks, Foundations,
+                Concealers & More
+            </p>
+
+            <a href="shop.html">Explore →</a>
+
+        </div>
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                🧴
+            </div>
+
+            <h3>Haircare</h3>
+
+            <p>
+                Shampoo, Conditioner,
+                Hair Masks & Oils
+            </p>
+
+            <a href="shop.html">Explore →</a>
+
+        </div>
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                🌸
+            </div>
+
+            <h3>Body Care</h3>
+
+            <p>
+                Body Lotion,
+                Body Wash &
+                Scrubs
+            </p>
+
+            <a href="shop.html">Explore →</a>
+
+        </div>
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                🌹
+            </div>
+
+            <h3>Fragrance</h3>
+
+            <p>
+                Perfumes,
+                Mists &
+                Deodorants
+            </p>
+
+            <a href="shop.html">Explore →</a>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="products">
+
+    <h2>Featured Products</h2>
+    <div class="divider"></div>
+    <div class="product-grid">
+
+      <div class="product-card">
+
+    <div class="product-top">
+
+    <span class="badge">BEST SELLER</span>
+
+    <button class="wishlist-btn"
+        aria-label="Add AuraGlow C serum to wishlist"
+        data-id="1"
+        data-name="AuraGlow Vitamin C Serum"
+        data-price="599"
+        data-image="IMAGE/serum.png">
+
+        <i class="fa-regular fa-heart"></i>
+
+    </button>
+
+</div>
+
+    <img src="IMAGE/serum.png"
+         alt="AuraGlow Vitamin C Serum"
+         class="product-image">
+
+    <h3>AuraGlow Vitamin C Serum</h3>
+
+    <div class="rating">
+        ★★★★★
+        <span>(245 Reviews)</span>
+    </div>
+
+    <div class="price">
+        <span class="new-price">₹599</span>
+        <span class="old-price">₹799</span>
+    </div>
+
+    <button class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Add to Cart
+    </button>
+
+</div>
+
+
+    <div class="product-card">
+    <div class="product-top">
+    <span class="badge">NEW</span>
+
+        <button class="wishlist-btn"
+            aria-label="Add Velvet Matte Lipstick to wishlist"
+            data-id="2"
+            data-name="Velvet Matte Lipstick"
+            data-price="399"
+            data-image="IMAGE/lipstick.png">
+
+            <i class="fa-regular fa-heart"></i>
+
+        </button>
+
+    </div>
+
+    <img src="IMAGE/lipstick.png"
+         alt="Velvet Matte Lipstick"
+         class="product-image">
+
+    <h3>Velvet Matte Lipstick</h3>
+
+    <div class="rating">
+        ★★★★★
+        <span>(198 Reviews)</span>
+    </div>
+
+    <div class="price">
+        <span class="new-price">₹399</span>
+        <span class="old-price">₹499</span>
+    </div>
+
+    <button class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Add to Cart
+    </button>
+
+</div>
+
+    <div class="product-card">
+     <div class="product-top">
+    <span class="badge">HOT</span>
+
+    <button class="wishlist-btn"
+        aria-label="Add Rose Bliss Perfume to wishlist"
+        data-id="3"
+        data-name="Rose Bliss Perfume"
+        data-price="899"
+        data-image="IMAGE/perfume.png">
+
+        <i class="fa-regular fa-heart"></i>
+
+    </button>
+
+</div>
+
+    <img src="IMAGE/perfume.png"
+         alt="Rose Bliss Perfume"
+         class="product-image">
+
+    <h3>Rose Bliss Perfume</h3>
+
+    <div class="rating">
+        ★★★★★
+        <span>(312 Reviews)</span>
+    </div>
+
+    <div class="price">
+        <span class="new-price">₹899</span>
+        <span class="old-price">₹1199</span>
+    </div>
+
+    <button class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Add to Cart
+    </button>
+
+</div>
+ </div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="why-us">
+
+    <h2>Why Choose AuraBeauty?</h2>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+            <i class="fas fa-leaf"></i>
+            <h3>Natural Ingredients</h3>
+            <p>Carefully selected ingredients that nourish and protect your skin.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Free Shipping</h3>
+            <p>Enjoy free delivery on all orders above ₹999 across India.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fas fa-award"></i>
+            <h3>Premium Quality</h3>
+            <p>High-quality beauty products trusted by thousands of happy customers.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Our beauty experts are always available to help you.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="newsletter">
+
+    <h2>Stay Beautiful, Stay Updated ✨</h2>
+
+    <p>
+        Subscribe to receive exclusive offers, beauty tips, and early access to new arrivals.
+    </p>
+
+    <form class="newsletter-form">
+
+    <input
+       type="email"
+       name="email"
+       aria-label="Email address"
+       placeholder="Enter your email address"
+       required
+   >
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+<section class="reviews">
+
+    <div class="section-title">
+        <h2>What Our Customers Say</h2>
+        <p>Real experiences from beauty lovers who trust AuraBeauty.</p>
+    </div>
+
+    <div class="review-grid">
+
+        <div class="review-card">
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                "The Vitamin C Serum completely transformed my skin.
+                It feels brighter and healthier than ever!"
+            </p>
+
+            <h3>Priya Sharma</h3>
+            <span>Bangalore</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                "Amazing quality products and super fast delivery.
+                I absolutely love the skincare collection."
+            </p>
+
+            <h3>Ananya Reddy</h3>
+            <span>Hyderabad</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">
+                ⭐⭐⭐⭐⭐
+            </div>
+
+            <p>
+                "The matte lipstick lasts all day and feels very comfortable.
+                Highly recommended!"
+            </p>
+
+            <h3>Sneha Patel</h3>
+            <span>Mumbai</span>
+        </div>
+
+    </div>
+
+</section>
+<footer>
+
+    <div class="footer-content">
+
+        <!-- ABOUT -->
+        <div class="footer-column">
+
+            <img
+                src="IMAGE/logo.png"
+                alt="AuraBeauty logo"
+                class="footer-logo">
+
+            <p>
+                Where Beauty Meets Confidence
+            </p>
+
+            <div class="socials">
+
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-pinterest"></i>
+
+            </div>
+
+        </div>
+
+
+        <!-- QUICK LINKS -->
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="index.html#categories">Categories</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- CUSTOMER CARE -->
+        <div class="footer-column">
+
+            <h3>Customer Care</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">Shipping & Delivery</a>
+                </li>
+
+                <li>
+                    <a href="#">Returns & Refunds</a>
+                </li>
+
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- CONTACT -->
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>
+                <i class="fas fa-envelope"></i>
+                support@aurabeauty.com
+            </p>
+
+            <p>
+                <i class="fas fa-phone"></i>
+                +91 98765 43210
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 AuraBeauty. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="JS/app.js"></script>
+<script src="JS/wishlist.js"></script>
+<script src="JS/cart.js"></script>
+</body>
+</html>

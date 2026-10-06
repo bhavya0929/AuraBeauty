@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AuraBeauty | Shop</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="IMAGE/logo.png" alt="AuraBeauty logo">
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="shop.html">Shop</a>
+            </li>
+
+            <li>
+                <a href="index.html#categories">Categories</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+
+        <div class="nav-icons">
+
+            <a href="wishlist.html">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+
+            <a href="cart.html" class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span id="cart-count">0</span>
+            </a>
+
+            <button id="dark-btn" aria-label="Toggle Dark Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= SHOP PAGE ================= -->
+
+<section class="products shop-page">
+
+    <div class="section-title">
+
+        <h2>Shop All Products</h2>
+
+        <p>
+            Discover our collection of premium beauty products.
+        </p>
+
+    </div>
+
+    <div class="divider"></div>
+
+
+    <div class="product-grid">
+
+
+        <!-- SERUM -->
+
+        <div class="product-card">
+
+            <div class="product-top">
+
+                <span class="badge">BEST SELLER</span>
+
+                <button
+                    class="wishlist-btn"
+                    aria-label="Add AuraGlow Vitamin C Serum to Wishlist"
+                    data-id="1"
+                    data-name="AuraGlow Vitamin C Serum"
+                    data-price="599"
+                    data-image="IMAGE/serum.png">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+            </div>
+
+            <img
+                src="IMAGE/serum.png"
+                alt="AuraGlow Vitamin C Serum"
+                class="product-image">
+
+            <h3>AuraGlow Vitamin C Serum</h3>
+
+            <div class="rating">
+                ★★★★★
+                <span>(245 Reviews)</span>
+            </div>
+
+            <div class="price">
+
+                <span class="new-price">₹599</span>
+
+                <span class="old-price">₹799</span>
+
+            </div>
+
+            <button class="cart-btn">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                Add to Cart
+
+            </button>
+
+        </div>
+
+
+        <!-- LIPSTICK -->
+
+        <div class="product-card">
+
+            <div class="product-top">
+
+                <span class="badge">NEW</span>
+
+                <button
+                    class="wishlist-btn"
+                    aria-label="Add Velvet Matte Lipstick to Wishlist"
+                    data-id="2"
+                    data-name="Velvet Matte Lipstick"
+                    data-price="399"
+                    data-image="IMAGE/lipstick.png">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+            </div>
+
+            <img
+                src="IMAGE/lipstick.png"
+                alt="Velvet Matte Lipstick"
+                class="product-image">
+
+            <h3>Velvet Matte Lipstick</h3>
+
+            <div class="rating">
+                ★★★★★
+                <span>(198 Reviews)</span>
+            </div>
+
+            <div class="price">
+
+                <span class="new-price">₹399</span>
+
+                <span class="old-price">₹499</span>
+
+            </div>
+
+            <button class="cart-btn">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                Add to Cart
+
+            </button>
+
+        </div>
+
+
+        <!-- PERFUME -->
+
+        <div class="product-card">
+
+            <div class="product-top">
+
+                <span class="badge">HOT</span>
+
+                <button
+                    class="wishlist-btn"
+                    aria-label="Add Rose Bliss Perfume to Wishlist"
+                    data-id="3"
+                    data-name="Rose Bliss Perfume"
+                    data-price="899"
+                    data-image="IMAGE/perfume.png">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+            </div>
+
+            <img
+                src="IMAGE/perfume.png"
+                alt="Rose Bliss Perfume"
+                class="product-image">
+
+            <h3>Rose Bliss Perfume</h3>
+
+            <div class="rating">
+                ★★★★★
+                <span>(312 Reviews)</span>
+            </div>
+
+            <div class="price">
+
+                <span class="new-price">₹899</span>
+
+                <span class="old-price">₹1199</span>
+
+            </div>
+
+            <button class="cart-btn">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                Add to Cart
+
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-column">
+
+            <img
+                src="IMAGE/logo.png"
+                alt="AuraBeauty logo"
+                class="footer-logo">
+
+            <p>
+                Where Beauty Meets Confidence
+            </p>
+
+            <div class="socials">
+
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-pinterest"></i>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="wishlist.html">Wishlist</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Customer Care</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">Shipping & Delivery</a>
+                </li>
+
+                <li>
+                    <a href="#">Returns & Refunds</a>
+                </li>
+
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Contact Us</h3>
+
+            <p>
+                <i class="fas fa-envelope"></i>
+                support@aurabeauty.com
+            </p>
+
+            <p>
+                <i class="fas fa-phone"></i>
+                +91 98765 43210
+            </p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 AuraBeauty. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="JS/app.js"></script>
+<script src="JS/wishlist.js"></script>
+<script src="JS/cart.js"></script>
+
+</body>
+</html>

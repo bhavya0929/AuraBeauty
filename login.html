@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | AuraBeauty</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <section class="auth-section">
+
+        <div class="auth-container">
+
+            <!-- LEFT SIDE -->
+            <div class="auth-brand">
+
+                <img src="IMAGE/logo.png"
+                     alt="AuraBeauty"
+                     class="auth-logo">
+
+                <h1>Welcome Back</h1>
+
+                <p>
+                    Discover beauty, confidence and products
+                    made to enhance your natural glow.
+                </p>
+
+                <span>
+                    Where Beauty Meets Confidence ✨
+                </span>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="auth-form-container">
+
+                <h2>Login</h2>
+
+                <p class="auth-subtitle">
+                    Welcome back! Please enter your details.
+                </p>
+
+                <form id="login-form">
+
+                    <!-- EMAIL -->
+                    <div class="form-group">
+
+                        <label for="login-email">
+                            Email Address
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                id="login-email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+                    <div class="form-group">
+
+                        <label for="login-password">
+                            Password
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input
+                                type="password"
+                                id="login-password"
+                                placeholder="Enter your password"
+                                required>
+
+                            <button
+                                type="button"
+                                class="password-toggle"
+                                onclick="togglePassword('login-password', this)">
+
+                                <i class="fa-regular fa-eye"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- OPTIONS -->
+                    <div class="form-options">
+
+                        <label class="remember-me">
+
+                            <input type="checkbox">
+
+                            <span>Remember me</span>
+
+                        </label>
+
+                        <a href="#" class="forgot-password">
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+
+                    <!-- LOGIN BUTTON -->
+                    <button
+                        type="submit"
+                        class="auth-btn">
+
+                        Login
+
+                    </button>
+
+
+                    <!-- REGISTER LINK -->
+                    <p class="auth-switch">
+
+                        Don't have an account?
+
+                        <a href="register.html">
+                            Create Account
+                        </a>
+
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="JS/app.js"></script>
+
+</body>
+
+</html>
